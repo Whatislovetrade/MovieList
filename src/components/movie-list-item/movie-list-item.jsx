@@ -9,8 +9,10 @@ export default class MovieListItem extends Component {
                     <li>Hello World</li>
                 </ul>
 
-                <button className="add">Избранное</button>
-                <button className="delete">Удалить</button>
+                <div className="btns">
+                    <button className="add">Избранное</button>
+                    <button className="delete">Удалить</button>
+                </div>
             </div>
         )
     }

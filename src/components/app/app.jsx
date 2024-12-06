@@ -15,10 +15,12 @@ export default class App extends Component {
 
     render() {
         return (
-            <div className="movie-list-app">
-                <AppHeader />
-                <SearchPanel />
-                <MovieList />
+            <div className="wrapper">
+                <div className="movie-list-app">
+                    <AppHeader />
+                    <SearchPanel />
+                    <MovieList />
+                </div>
             </div>
         )
     }

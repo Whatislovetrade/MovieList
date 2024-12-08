@@ -7,3 +7,17 @@
     font-size: 16px;
     color: #000;
 }
+
+.movie-list-film {
+    cursor: pointer;
+   
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.important { 
+    font-size: 17px;
+    color: #4c1818;
+}

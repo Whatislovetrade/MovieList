@@ -5,9 +5,9 @@ import './movie-list.css'
 export default class MovieList extends Component {
     render() {
         return (
-        <div className="movie-list">
-            <MovieListItem />
-        </div>
+            <div className="movie-list">
+                <MovieListItem />
+            </div>
         )
     }
 }

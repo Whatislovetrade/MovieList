@@ -9,7 +9,9 @@ export default class App extends Component {
 
     state = {
         movies: [
-            { id: 1, title: 'Kingsman: секретная служба', genre: 'Комедия', year: 2017, watched: true, poster: false}
+            { id: 1, title: 'Kingsman: секретная служба', genre: 'Комедия', year: 2017, watched: false, poster: false},
+            { id: 2, title: 'Форрест Гамп', genre: 'Комедия', year: 1999, watched: false, poster: false},
+            { id: 3, title: 'Ходячие мертвецы', genre: 'Ужасы', year: 2011, watched: false, poster: false}
         ]
     }
 

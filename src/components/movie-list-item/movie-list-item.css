@@ -1,0 +1,9 @@
+.list-block {
+    margin: 0;
+    list-style-type: none;
+}
+
+.item-list {
+    font-size: 16px;
+    color: #000;
+}

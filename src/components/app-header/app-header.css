@@ -1,0 +1,14 @@
+.app-header {
+    height: 80px;
+    width: 500px;
+    background-color: #4e4e50;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.app-header-title {
+    font-size: 57px;
+    color: #fff;
+}

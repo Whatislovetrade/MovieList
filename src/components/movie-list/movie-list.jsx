@@ -4,10 +4,14 @@ import './movie-list.css'
 
 export default class MovieList extends Component {
     render() {
+        const { movies } = this.props
+        const elements = movies.map((movie, id) => {
+            return <MovieListItem key={id} {...movie} />
+        })
         return (
-            <div className="movie-list">
-                <MovieListItem />
-            </div>
+            <ul className="movie-list list-group">
+                {elements}
+            </ul>
         )
     }
 }

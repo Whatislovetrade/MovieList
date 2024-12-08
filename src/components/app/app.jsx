@@ -21,7 +21,7 @@ export default class App extends Component {
                 <div className="movie-list-app">
                     <AppHeader />
                     <SearchPanel />
-                    <MovieList />
+                    <MovieList movies={this.state.movies} />
                 </div>
             </div>
         )

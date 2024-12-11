@@ -25,7 +25,7 @@ export default class MovieListItem extends Component {
     }
 
     render() {
-        const { title, genre, year } = this.props
+        const { title, genre, year, onDeleted } = this.props
         const { watched, important } = this.state
 
         let className = ' movie-list-film'
@@ -49,7 +49,7 @@ export default class MovieListItem extends Component {
                     <button onClick={this.onMarkImportant} className="btn btn-outline-success me-2 btn-sm">
                         <i className="bi bi-star"></i> {/* Иконка "Звезда" */}
                     </button>
-                    <button className="btn btn-outline-danger btn-sm">
+                    <button onClick={onDeleted} className="btn btn-outline-danger btn-sm">
                         <i className="bi bi-trash"></i> {/* Иконка "Мусорная корзина" */}
                     </button>
                 </div>

@@ -1,8 +1,8 @@
 import './add-movie-btn.css'
 
-const AddMovieBtn = () => {
+const AddMovieBtn = ({onClick}) => {
     return (
-        <button className='btn btn-outline-secondary me-2 btn-lg add-movie-btn'>Добавить фильм</button>
+        <button onClick={onClick} className='btn btn-outline-secondary me-2 btn-lg add-movie-btn'>Добавить фильм</button>
     )
 }
 
